@@ -27,7 +27,7 @@ Asegúrate de tener Node.JS 16.11+
 Clona el repositorio
 
 ```
-git clone https://github.com/ifeeljoy/pi-tracker.git
+git clone https://github.com/ifeeljoy/pi-tracker-es.git
 ```
 
 Instala las dependencias.
