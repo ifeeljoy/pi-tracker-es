@@ -1,67 +1,68 @@
-[![IMG-3572.jpg](https://i.postimg.cc/hGc7S9Rd/IMG-3572.jpg)](https://postimg.cc/tsvgknTq)
+[![IMG-3575.jpg](https://i.postimg.cc/J4WrhhCW/IMG-3575.jpg)](https://postimg.cc/K4JSqxY9)
 
-[![IMG-3573.jpg](https://i.postimg.cc/L41jRkJx/IMG-3573.jpg)](https://postimg.cc/6TB8fvLZ)
+[![IMG-3574.jpg](https://i.postimg.cc/j5rg7BxC/IMG-3574.jpg)](https://postimg.cc/wt0QKfsd)
 
-# About
+# Acerca de
 
-A Discord bot that provides information about the Pi Network. 
+Un bot de Discord que proporciona información sobre Pi Network.
 
-# Disclaimer
+# Descargo de responsabilidad
 
-This repository may not always be up to date with the current version of the bot. If you prefer frequent updates and new features as they come, I recommend [inviting the (now verified!) bot.](https://discord.com/oauth2/authorize?client_id=1342105252484350012)
+Este repositorio puede no estar siempre actualizado con la versión actual del bot.
 
-# Dependencies
+Gracias a Gemma por ayudar con la traducción.
+
+# Dependencias
+
 Axios 1.6.7
 
 discord.js 14.14.1
 
 dotenv 5.0.0
 
-# Installation
-Make sure you have Node.JS 16.11+
+# Instalaciones
 
-Clone the repository.
+Asegúrate de tener Node.JS 16.11+
+
+Clona el repositorio
 
 ```
 git clone https://github.com/ifeeljoy/pi-tracker.git
 ```
 
-Install dependencies.
+Instala las dependencias.
 
 ```
 npm install discord.js dotenv axios
 ```
 
-Rename '.env-example' to '.env' and add your bot token and client ID.
+Cambia el nombre de ‘.env-example’ a ‘.env’ y agrega tu token de bot y el ID del cliente.
 
 ```
-// Your Discord bot's token.
-BOT_TOKEN=here
+// El token de tu bot de Discord.
+TOKEN_DEL_BOT=aquí
 
-// Your Discord bot's application ID.
-CLIENT_ID=here
+// El ID de la aplicación de tu bot de Discord.
+ID_DEL_CLIENTE=aquí
 
-// The current base rate for mining Pi. Can be found in the Pi app.
-MINING_RATE=here
+// La tasa base actual para el minado. Se puede encontrar en la aplicación Pi.
+TASA_DE_MINADO=0.0029378
 ```
 
-Run the bot.
+Inicia el bot
 
 ```
 node index.js
 ```
 
-# License
-This project is licensed under the GNU General Public License v3.0. See the LICENSE file for more details.
+# Licencia 
 
-# Support
+Este proyecto está bajo la Licencia Pública General GNU v3.0. Consulta el archivo LICENSE para más detalles.
 
-https://pi-tracker.xyz/
+# Ayuda
 
-# Buy Me A Coffee
+https://pi-tracker.xyz/discord/
+
+# Donar
+
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/mozzarella)
-
-$3 a month keeps the bot's server running.
-
-# Invite the bot to your server
-[Invite Pi Tracker](https://discord.com/oauth2/authorize?client_id=1342105252484350012)
